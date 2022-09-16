@@ -1,6 +1,7 @@
 main{
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+    border-radius: 100px 100px 100px 100px;
 }
 
 .casa{
@@ -11,12 +12,14 @@ main{
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: 150px;
-    cursor: pointer;
+    cursor:cell;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 .linha{
     display: grid;
     grid-template-columns: 150px 150px 150px;
+    
     
 }
 body{
@@ -26,6 +29,8 @@ body{
     align-items: center;
     height: 100vh;
     align-items: center;
+    background-color: black;
+    
 
 }
 #jogar{
@@ -38,32 +43,52 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: black;
+    margin: 2%;
+    
+    
+
     
 }
 .botao-css{
     display: none;
+    border-style: groove;
+    border-color: white;
     border: none;
     color: white;
     text-align: center;
     background-color: rgb(0, 0, 0);
     border-radius:  30px 30px 30px 30px;
     padding: 5px;
-    margin: 1%;
+    margin: 3%;
     cursor: pointer;
+    border-style:groove;
 
 
 }
 #titulo{
-    font-size: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style:double;
+    font-size: 53px;
+    font-family:'Courier New', Courier, monospace;
     margin: 3%;
     color: white;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid black;
-    border-radius: 30px 30px 30px 30px;
-    padding: 1%;
+    background-color: rgb(0,
+    0, 0);
+    padding: 2%;
+    border-radius: 100px 0px 100px 0px;
 
 }
 #resultado{
     text-align: center;
+    border-style:groove;
+    border-radius:  30px 30px 30px 30px;
 }
+
+.botaofoda {
+    text-align: center;
+}
+
+#casa01, #casa03, #casa07, #casa09{
+    border: none;
+}
+
